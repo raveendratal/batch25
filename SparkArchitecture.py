@@ -288,3 +288,11 @@ spark.conf.set("spark.sql.files.maxPartitionBytes","100M")
 # MAGIC 
 # MAGIC __`Question: How does the Spark approach to data applications differ from other solutions?`__
 # MAGIC * Answer: Spark offers a unified solution to use cases that would otherwise need individual tools. For instance, Spark combines machine learning, ETL, stream processing, and a number of other solutions all with one technology.
+
+# COMMAND ----------
+
+# MAGIC %fs ls /databricks-datasets
+
+# COMMAND ----------
+
+
